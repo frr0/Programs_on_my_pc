@@ -1,4 +1,4 @@
-# Programs_on_my_pc
+# Programs on my pc
 
 ## CLI programs
 
