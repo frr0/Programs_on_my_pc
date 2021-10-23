@@ -18,6 +18,7 @@
 - Onedrive
 - Dropbox
 - Valgrind
+- pandoc
 
 
 ## GUI programs
