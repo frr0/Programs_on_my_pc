@@ -17,6 +17,7 @@
 - Git
 - Onedrive
 - Dropbox
+- Valgrind
 
 
 ## GUI programs
