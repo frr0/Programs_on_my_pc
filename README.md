@@ -30,4 +30,5 @@
 - VLC
 - OBS
 - KDE Connect
+- Zathura
 
