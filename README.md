@@ -2,7 +2,7 @@
 
 ## CLI programs
 
-- NeoVim
+- Neovim
 - Python3
 - LazyGit
 - Node.js
