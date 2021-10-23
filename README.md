@@ -12,6 +12,16 @@ sudo dnf install codium
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install obs-studio
 ```
+```
+CNTX={users|orgs}; NAME={username|orgname}; PAGE=1
+curl "https://api.github.com/$CNTX/$NAME/repos?page=$PAGE&per_page=100" |
+  grep -e 'git_url*' |
+  cut -d \" -f 4 |
+  xargs -L1 git clone
+```
+   - Set `CNTX`=users and `NAME`=yourusername, to download all your repositories.
+   - Set `CNTX`=orgs and `NAME`=yourorgname, to download all repositories of your organization.
+
 
 ## CLI programs
 
