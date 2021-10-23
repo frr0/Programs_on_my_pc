@@ -1,5 +1,10 @@
 # Programs on my pc
 
+**Fedora**
+```
+sudo dnf install neoovim python node texlive ranger gcc zsh git valgrind pandoc firefox telegram-desktop thunderbird xournalpp vlc zathura
+```
+
 ## CLI programs
 
 - Neovim
