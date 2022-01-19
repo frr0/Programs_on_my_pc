@@ -2,7 +2,7 @@
 
 **Fedora**
 ```
-sudo dnf install i3 neovim python node texlive fzf ranger gcc zsh git onedrive valgrind pandoc firefox telegram-desktop thunderbird xournalpp vlc zathura
+sudo dnf install i3 neovim python node texlive fzf ranger gcc zsh git onedrive valgrind pandoc firefox telegram-desktop thunderbird xournalpp vlc zathura polybar rofi
 sudo dnf copr enable atim/lazygit -y
 sudo dnf install lazygit
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -43,6 +43,9 @@ curl "https://api.github.com/$CNTX/$NAME/repos?page=$PAGE&per_page=100" |
 - [Dropbox](https://www.dropbox.com/install-linux)
 - Valgrind
 - pandoc
+- polybar
+- rofi
+- herbe
 
 
 ## GUI programs
