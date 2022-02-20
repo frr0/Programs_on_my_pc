@@ -9,3 +9,128 @@ sudo dnf -y update
 sudo dnf install dnf-plugin-system-upgrade
 sudo dnf system-upgrade download –releasever=INSERT NUMBER
 sudo dnf system-upgrade reboot
+
+# Graphic tablet
+
+xsetwacom list
+<!--number can change-->
+xsetwacom set 15 MapToOutput HDMI-1  
+
+# Programs
+
+<!--name of programs-->
+xprop
+
+# i3wm Setting commands
+
+Graphic tablet
+xsetwacom set 21 MapToOutput eDP-1
+xsetwacom list devices
+
+wifi
+iw dev
+nmtui
+
+bluetooth
+bluetoothctl
+$ power on
+$ agent on
+$ scan on
+Only the first time
+$ pair AA:BB:CC:DD:EE:FF
+$ connect AA:BB:CC:DD:EE:FF
+# scan off when you found your device
+scan off
+exit
+
+Screen
+xrand
+r --output DP-1 --mode 1280x1024
+xrandr
+
+zip
+
+zip -9 -e -r -q name folder_to_be_zipped/
+unzip folder.zip
+
+dir to file
+tar czf myfiles.tar.gz mydirectory/    
+
+file to dir
+tar xzf myfiles.tar.gz
+
+enc
+gpg -e -r myname myfiles.tar.gz
+
+dec
+gpg -d myfiles.tar.gz.gpg
+
+
+
+BETTER
+encr
+gpgtar --encrypt --output <out_file_name> -r <recipient> <dir_name>
+
+dec
+gpgtar --decrypt <out_file_name>
+
+# gdb
+
+<!--## debug-->
+
+inside vim
+
+file program
+b 1
+b Main.c:1
+
+r f1.txt fn.txt
+
+define a
+n
+info locals
+end
+
+p i
+display i
+
+terminal 
+
+gdb ./program
+
+b 1
+b Main.c:1
+
+r f1.txt fn.txt
+
+define a
+n
+l
+info locals
+end
+
+p i
+display i
+
+terminal with ui
+
+gdb -tui ./program
+
+b 1
+b Main.c:1
+rb program.c:.
+
+r f1.txt fn.txt
+
+record
+rc rn
+
+c n
+
+define a
+n
+info locals
+end
+
+p i
+display i
