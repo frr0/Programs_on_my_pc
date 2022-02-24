@@ -78,6 +78,15 @@ xsetwacom list
 xsetwacom set 15 MapToOutput HDMI-1  
 ```
 
+# Audio problems
+
+https://askubuntu.com/questions/75828/external-microphone-not-working
+```
+pavucontrol
+hdajackretask
+alsa-tools-gui
+```
+
 # Programs
 
 <!--name of programs-->
