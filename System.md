@@ -68,6 +68,13 @@ sudo dnf install swaylock-effects
 sudo dnf copr disable kwizart/fedy  
 ```
 
+# Shell
+
+```
+cat /etc/shells
+chsh -s /path
+```
+
 # Graphic tablet
 
 ```
