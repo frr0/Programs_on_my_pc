@@ -86,6 +86,13 @@ cat ~/.ssh/id_ed25519.pub
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
+## git .gitignore update
+
+```
+git rm -r --cached .
+git add -A
+git commit -am 'Removing ignored files'
+```
 
 # Graphic tablet
 
