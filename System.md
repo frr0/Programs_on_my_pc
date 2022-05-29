@@ -86,6 +86,18 @@ cat ~/.ssh/id_ed25519.pub
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent  
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
+## git repo
+
+```
+echo "# My Repo" >> README.md
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin "link"
+git push origin master
+```
+
+
 ## git .gitignore update
 
 ```
